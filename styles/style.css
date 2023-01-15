@@ -57,6 +57,7 @@ header-title-description-button-image styles
     justify-content: center;
     align-items: center;
 }
+
 .head-title {
     font-size: 64px;
     color: #131313;
@@ -85,33 +86,277 @@ header-title-description-button-image styles
 quick-list-features-styles
 -------------------------------*/
 
-.quick-list{
+.quick-list {
     display: flex;
     margin-top: 300px;
     justify-content: center;
     gap: 80px;
 }
-.quick-list-image{
+
+.quick-list-image {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap:25px;
+    grid-gap: 25px;
 }
-.quick-list-text-content{
+
+.quick-list-text-content {
     margin-top: 220px;
 }
-.quick-list-title{
+
+.quick-list-title {
     font-size: 45px;
     color: #727272;
     margin-bottom: 15px;
 }
-.of-our{
+
+.of-our {
     color: #131313
 }
-.features{
+
+.features {
     color: #FF900E;
 }
-.quick-list-description{
+
+.quick-list-description {
     font-size: 16px;
     color: #727272;
     margin-bottom: 20px;
+}
+
+/*---------------------------
+features-love-enjoy
+-----------------------------*/
+.features-love-enjoy {
+    display: flex;
+    margin-top: 200px;
+    gap: 147px;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.features-main-title-description {}
+
+.features-title {
+    border-left: 4px solid orange;
+    font-size: 45px;
+    color: #131313;
+    padding: 10px;
+}
+
+.features-description {
+    font-size: 16px;
+    color: #727272;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.features-services {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+    border-radius: 8px;
+    width: 586px;
+    height: 171px;
+}
+
+.services-text {
+    padding: 15px;
+}
+
+.service-title {
+    font-size: 20px;
+    color: #131313;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.service-description {
+    font-size: 16px;
+    color: #727272;
+    line-height: 28px;
+}
+
+.year-experience {
+    text-align: center;
+    margin-top: -200px;
+}
+
+/*------------------------
+Experience-button styles
+--------------------------*/
+
+.btn-year {
+    width: 300px;
+    height: 150px;
+    font-size: 60px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.btn-year span {
+    font-size: 25px;
+
+}
+
+/*---------------------
+Some-facts styles
+-----------------------*/
+
+.some-facts {
+    margin-top: 300px;
+    margin-left: 250px;
+    margin-bottom: 200px;
+}
+
+.some-facts-title {
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 10px;
+}
+
+.some-fact-description {
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+
+}
+
+/*------------------------------------
+Our-total-work animation styles
+--------------------------------------*/
+.total-work-summary {
+    text-align: center;
+    margin-bottom: 200px;
+
+}
+
+.work-summary {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+
+}
+
+.summary {
+    width: 250px;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: rgb(43, 43, 43);
+    box-shadow: 0px 4px 30px rgb(128, 128, 128);
+
+}
+
+.summary:hover {
+    animation: rotate 2s ease-in-out .6s 3;
+}
+
+@keyframes rotate {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.summary-content {
+    margin-top: 40px;
+
+}
+
+.work-count {
+    font-size: 45px;
+    color: #fffcfc;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.work-description {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+/*----------------------------------
+Personal-think & I-think-my-info
+------------------------------------*/
+.info-title {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 200px;
+    margin-bottom: 90px;
+    color: #181818;
+}
+
+.my-all-content {
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    margin-bottom: 300px;
+
+}
+
+.my-image img {
+    width: 600px;
+    height: 800px;
+    border-radius: 20px;
+}
+
+.my-text {
+    margin-top: 300px;
+}
+
+.my-name {
+    font-size: 45px;
+    color: #FF900E;
+    margin-bottom: 20px;
+}
+
+.my-description {
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 20px;
+}
+
+/*------------------------------
+Our Sponspors-styles
+--------------------------------*/
+.sponsors-text {
+    text-align: center;
+}
+
+.sponsor-title {
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 10px;
+}
+
+.sponsors-description {
+    font-size: 16px;
+    color: #727272;
+}
+
+.sponsors-company {
+    margin-top: 100px;
+}
+
+.company-logo {
+    justify-content: center;
+    display: flex;
+    gap: 150px;
+    margin-bottom: 300px;
+}
+
+/*-------------
+footer-styles
+---------------*/
+.footer-description {
+    color: #424242;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    padding-top: 30px;
+    background: #4efcab;
+    width: 100%;
+    height: 60px;
+
 }
